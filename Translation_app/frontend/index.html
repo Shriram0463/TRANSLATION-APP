@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Translation App</h1>
+
+    <h2>Language Detection</h2>
+    <textarea id="detect-text" placeholder="Enter text to detect language"></textarea>
+    <button onclick="detectLanguage()">Detect Language</button>
+    <p id="detect-result"></p>
+
+    <h2>Translate Text</h2>
+    <textarea id="translate-text" placeholder="Enter text to translate"></textarea>
+    <input type="text" id="target-language" placeholder="Target language code">
+    <button onclick="translateText()">Translate Text</button>
+    <p id="translate-result"></p>
+
+    <h2>Translate Audio</h2>
+    <input type="file" id="audio-file" accept="audio/*">
+    <button onclick="translateAudio()">Translate Audio</button>
+    <audio id="translated-audio" controls></audio>
+
+    <h2>Speech to Text</h2>
+    <input type="file" id="speech-file" accept="audio/*">
+    <button onclick="speechToText()">Speech to Text</button>
+    <p id="speech-result"></p>
+
+    <script src="/static/app.js"></script>
+
+</body>
+</html>
