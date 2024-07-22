@@ -77,7 +77,8 @@ Access the frontend:
 
 Open your web browser and navigate to http://127.0.0.1:8001.
 
-Use the Application:
+
+## Use the Application:
 
 Language Detection: Enter text in the textarea and click "Detect Language."
 
@@ -88,7 +89,8 @@ Translate Audio: Select an audio file and click "Translate Audio" to get the tra
 Speech to Text: Select an audio file and click "Speech to Text" to get the text from the audio.
 
 
-Troubleshooting
+
+##Troubleshooting
 CORS Issues: If you encounter CORS errors, ensure that CORS is properly configured in main.py with the CORSMiddleware.
 
 Missing Dependencies: If you get ModuleNotFoundError, make sure all required packages are installed. Check requirements.txt for the list of dependencies.
